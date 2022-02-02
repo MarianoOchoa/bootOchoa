@@ -1,0 +1,108 @@
+
+.texto:hover{
+    background-color: rgb(151, 250, 121);
+    
+}
+h1{
+    color:rgb(218, 214, 214);
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: white;
+}
+h3{
+    color: rgb(218, 214, 214);
+}
+html{
+    background-color: rgb(24, 24, 24);
+}
+
+.text{
+    color:rgb(197, 190, 190);
+}
+body{
+    background-color: rgb(24, 24, 24);
+}
+.bienv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    width: 80%;
+    margin-left: 10%;
+}
+.bienv {
+    color: rgb(218, 214, 214);
+}
+.nav-link a{
+    color: white;
+}
+.nov{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    color: rgb(218, 214, 214);
+}
+.coach:hover{
+    background-color:rgb(151, 250, 121) ;
+    color: black;
+}
+.coach{
+    text-decoration: tomato;
+}
+.atlet:hover{
+    background-color: rgb(151, 250, 121);
+    color:black;
+}
+.text{
+    color: white;
+}
+.nos{
+    margin-top: 50px;
+}
+.blog{
+    margin-bottom: 70px;
+}
+.carro{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.d-block {
+    height: 90vh;
+}
+span{
+    color: rgb(252, 66, 66);
+}
+.entren{
+    color: rgb(179, 179, 179);
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.fEntren{
+    margin-bottom: 50px;
+}
+
+
+.nos1{
+    color: rgb(97, 73, 134);
+    font-size: large;
+
+}
+
+
+@media  (max-width:767px){
+   
+    .blogUno{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .fotoNos{
+
+            display: none;
+        }
+        
+
+}
+
