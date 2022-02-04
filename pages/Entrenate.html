@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark text-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark text-white fixed-top">
             <div class="container-fluid  ">
               <a class="navbar-brand texto" href="../index.html">COMUNIDAD MORE</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,46 +44,64 @@
             </div>
           </nav>
     </header>
-    <main class="entrenate">
+
+    <!--MAIN -->
+    <main class="container mein">
         <h1>CONOCE NUESTROS SERVICIOS</h1>
         <p class="bienv">Tenemos muchos servicios, con el objetivo de adaptarnos a tus posibilidades, dandote varias para elegir, la que mejor se adapte a vos, a tu presupuesto y a tu contexto. Todos los planes son individualizando tu situacion y tus objetivos, trabajamos especialmente para vos, poniendo nuestros recursos a disposicion</p>
-        <section class="container-fluid">
-            <div class="row">
-                <img class="col-sm-12 col-lg-3 fEntren" src="../multimedia/planBasic.jpeg" alt="BASIC">              
-                <div class="col-1"></div>
-                <img class="col-sm-12 col-lg-3 fEntren " src="../multimedia/planAtl.jpeg" alt="ATHLETE">
-                <div class="col-1"></div>
-                <img class="col-sm-12 col-lg-3 fEntren" src="../multimedia/planPro.jpeg" alt="PRO">
-            </div>
-            <div class="row">
-                <p class="col-sm-12 col-lg-3 entren prim">El plan basic contiene: <br>
+        <section class="row">
+          <!--PRIMER CARD-->
+          <div class="col-3 card" style="width: 18rem;">
+            <img src="../multimedia/planBasic.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PLAN BASIC</h5>
+              <p class="card-text">El plan basic contiene: <br>
                 -Entrenamiento personalizado. <br>
                 -Monitoreo del mismo. <br>
                 -Evaluaciones frecuentes. <br>
                 <span>-Valor:$1500 mensual</span>
-                </p>
-                <p class="col-1"></p>
-                <p class="col-sm-12 col-lg-3 entren seg">El plan atlhlete contiene: <br>
-                    Todo el plan basic MAS <br>
-                    -Seguimiento de rendimientos en partidos. <br>
-                    -Contacto 24/7 con el equipo. <br>
-                    -Monitoreo actualizado previo a cada sesion, ajustando cargas. <br>
-                    -Evaluaciones especificas, de movilidad, fuerza, potencia, no solo de fatiga. <br>
-                    -Acceso a la app builderPro, para hacer tu entrenamiento mas sencillo y efectivo. <br>
-                    -Acceso a galeria de videos para tecnica de movimientos en general <br>
-                    <span>-Valor:$3500 mensuales</span>
-                </p>
-                <p class="col-1"></p>
-                <p class="col-sm-12 col-lg-3 entren terc">El plan Pro contiene:
-                    Todo el plan athlete MAS: <br>
-                    -Pretemporada en centro de alto rendimiento (minimo 4 meses de anticipacion entrenando en la comunidad) <br>
-                    -Acceso a una sesion semanal con kinesiologos asociados al equipo de trabajo. <br>
-                    -Acceso a una sesion mensual con masajistas asociados al equipo de trabajo. <br>
-                    -Descuento en la plataforma educativa. <br>
-                    <span>-Valor:$5000 mensuales.</span>
-                </p>
+                </p></p>
+              <a href="#" class="btn btn-primary">Adquirir plan basic</a>
             </div>
-        </secion>
+          </div>
+          <div class="col-1"></div>
+          <!--Segunda CARD-->
+          <div class="card col-3" style="width: 18rem;">
+            <img src="../multimedia/planAtl.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Plan Athlete</h5>
+              <p class="card-text">El plan atlhlete contiene: <br>
+                Todo el plan basic MAS <br>
+                -Seguimiento de rendimientos en partidos. <br>
+                -Contacto 24/7 con el equipo. <br>
+                -Monitoreo actualizado previo a cada sesion, ajustando cargas. <br>
+                -Evaluaciones especificas, de movilidad, fuerza, potencia, no solo de fatiga. <br>
+                -Acceso a la app builderPro, para hacer tu entrenamiento mas sencillo y efectivo. <br>
+                -Acceso a galeria de videos para tecnica de movimientos en general <br>
+                <span>-Valor:$3500 mensuales</span>
+              </p>
+              <a href="#" class="btn btn-primary">Adquirir plan Athlete</a>
+            </div>
+          </div>
+          <div class="col-1"></div>
+          <!--TERCERA CARD-->
+          <div class="card col-3" style="width: 18rem;">
+            <img src="../multimedia/planPro.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Plan Athlete-Pro</h5>
+              <p class="card-text">El plan Pro contiene:
+                Todo el plan athlete MAS: <br>
+                -Pretemporada en centro de alto rendimiento (minimo 4 meses de anticipacion entrenando en la comunidad) <br>
+                -Acceso a una sesion semanal con kinesiologos asociados al equipo de trabajo. <br>
+                -Acceso a una sesion mensual con masajistas asociados al equipo de trabajo. <br>
+                -Descuento en la plataforma educativa. <br>
+                <span>-Valor:$5000 mensuales.</span>
+              </p>
+              <a href="#" class="btn btn-primary">Adquirir plan Pro</a>
+            </div>
+          </div>
+            
+        </section>
     </main>
 
 
