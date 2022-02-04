@@ -106,7 +106,7 @@ span{
         background-color: blue;
     }
     .carro{
-        height: 30%;
+        height: 35vh;
     }
     .w-100{
         height: 30%;
@@ -128,7 +128,7 @@ span{
         height: 55%;
     }
     .carro{
-        height: 30%;
+        height: 35vh;
     }
     .fotoNos{
         height: auto;
@@ -137,5 +137,8 @@ span{
     .Uno{
         display: flex;
         display: inline;
+    }
+    .foot{
+        height:  !important;: 30vh;
     }
 }
