@@ -28,8 +28,6 @@ body{
     justify-items: center;
     width: 80%;
     margin-left: 10%;
-}
-.bienv {
     color: rgb(218, 214, 214);
 }
 
@@ -63,25 +61,12 @@ body{
     margin-left: 10%;
     margin-right: 10%;
 }
-.carro:hover{
-    size: 120%;
-    transition: 2s;
-}
-.d-block {
-    height: 90vh;
-}
+
+
 span{
     color: rgb(252, 66, 66);
 }
-.entren{
-    color: rgb(179, 179, 179);
-    margin-bottom: 10px;
-    font-size: larger;
-}
 
-.fEntren{
-    margin-bottom: 50px;
-}
 
 
 .nos1{
@@ -95,21 +80,29 @@ span{
     flex-direction: column;
     align-items: center;
 }
-
+.espacio{
+    display: none;
+}
 
 .mein{
     margin-top: 80px;
 }
+.tarj{
+    width: 28%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+footer{
+    width: 100%;
+}
 
-@media  (max-width:768px){
-    body{
-        background-color: blue;
-    }
-    .carro{
-        height: 35vh;
+@media (max-width:768px){
+
+    .carro{  
+        height: 55%;
     }
     .w-100{
-        height: 30%;
+        height: 5%;
     }
    
     .blogUno{
@@ -119,17 +112,22 @@ span{
     .fotoNos{
             display: none;
         }
+    .tarjetas{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .tarj{
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }
 @media (min-width:769px) and (max-width: 991px){
-    body{
-        background-color: red;
-    }
+
     .w-100{
         height: 55%;
     }
-    .carro{
-        height: 35vh;
-    }
+
     .fotoNos{
         height: auto;
         width: 25vh;
@@ -138,7 +136,17 @@ span{
         display: flex;
         display: inline;
     }
-    .foot{
-        height:  !important;: 30vh;
+    .tarj{
+        width: 30%;
+        margin-right: 5px;
+        margin-left: 5px;
+        height: auto;
+        
+    }
+    .espacio{
+        display: none;
+    }
+    .somos{
+        margin-left: 15%;
     }
 }
